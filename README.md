@@ -7,6 +7,12 @@
 ====================
 افتح الملف (.conkyrc)<br>
 
+ضع هذي الأسطر الضرورية لدعم اللغة <br>
+```
+own_window_argb_visual yes
+own_window_argb_value 255
+override_utf8_locale yes
+```
 ضع هذا الامر في كل مره تريد الكتابة بالعربية<br>
 ${font arial:pixelsize=40}${alignc} ${exec  python2 ~/.conkyar/rtl.py "بسم الله الرحمن الرحيم"} ${font}<br>
 
