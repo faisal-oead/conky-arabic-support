@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #  
 #  Copyright 2014 faisal oead <fafagold@gmail.com>
@@ -24,8 +24,8 @@ import arabic_reshaper
 
 def main():
 
-	reshaped_text = arabic_reshaper.reshape(sys.argv[1].decode('utf-8'))
-	print reshaped_text.encode('utf-8')
+	reshaped_text = arabic_reshaper.reshape(sys.argv[1])
+	print(reshaped_text)
 
 if __name__ == '__main__':
     main()
